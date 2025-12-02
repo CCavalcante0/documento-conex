@@ -1,6 +1,5 @@
 # Auditoria de Segurança v0.5.2
 
-**Data:** 26 de novembro de 2025  
 **Status:** ✅ CRÍTICO - Vulnerabilidades Corrigidas  
 **Versão:** 0.5.2
 
@@ -116,12 +115,7 @@ Toda a plataforma agora implementa controle de acesso baseado em 4 roles:
 ## 📊 Status do Linter de Segurança
 
 ### ✅ Problemas Críticos: 0
-### ⚠️ Avisos: 2 (Aceitáveis)
-
-**WARN 1 & 2: Extension in Public**
-- Extensões `pg_net` e `pg_trgm` no schema public
-- **Status:** ACEITÁVEL - Configuração padrão do Supabase
-- **Justificativa:** `pg_net` não pode ser movida para outro schema por limitação do Postgres
+### ⚠️ Avisos: 0
 
 ---
 
@@ -161,7 +155,6 @@ Toda a plataforma agora implementa controle de acesso baseado em 4 roles:
 2. ✅ Anonimização de dados de analytics
 3. ✅ Política de privacidade publicada
 4. ✅ Portal de solicitação de dados (RAAIPD)
-5. ⚠️ **PENDENTE:** Remover nome pessoal do DPO da documentação pública
 
 ---
 
